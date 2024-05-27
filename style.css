@@ -15,7 +15,7 @@
 
   background-color: #163853;
   align-items: center;
-  justify-content: space-around;
+  /* justify-content: space-evenly; */
   width: 18vw;
   height: 210vh;
 }
@@ -38,9 +38,12 @@
   width: 70%;
   font-weight: bold;
   padding-bottom: 5px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .contactInfo {
   width: 14vw;
+  margin-top: 20px;
 }
 .phoneClass {
   width: 2rem;
@@ -64,6 +67,7 @@
 /* Email */
 .email {
   width: 13vw;
+  margin-top: 10px;
 }
 .emailClass {
   width: 1.6rem;
@@ -89,6 +93,7 @@
 .location,
 .site {
   width: 13vw;
+  margin-top: 10px;
 }
 .locationClass,
 .siteClass {
