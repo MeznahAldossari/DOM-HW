@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CV</title>
+  </head>
+  <body>
+    <div class="main-div">
+      <div class="personalInfo">
+        <img
+          src="img-info.jpg"
+          id="person"
+          class="imgCV"
+          onmouseover="personalImage()"
+          onmouseout="imageRemoved()"
+        />
+        <img src="woman.png" id="person2" class="myInfo" />
+        <h3 class="title-info">CONTACT</h3>
+        <div class="contactInfo">
+          <span id="phone" onmouseover="MyPhone()" onmouseout="hisPhone()"
+            ><img src="phone1.png" class="phoneClass" />+123-456-7890</span
+          >
+
+          <span id="phone2"
+            ><img src="phone1.png" class="phoneClass" />+966 5329 50829</span
+          >
+        </div>
+        <!--Email-->
+        <div class="email">
+          <span id="email" onmouseover="MyEmail()" onmouseout="hisEmail()"
+            ><img
+              src="email.png"
+              class="emailClass"
+            />hello@reallygreatsite.com</span
+          >
+
+          <span id="email2"
+            ><img src="email.png" class="emailClass" />Meznah@hotmail.com</span
+          >
+        </div>
+        <!--location-->
+        <div class="location">
+          <span
+            id="location"
+            onmouseover="MyLocation()"
+            onmouseout="hisLocation()"
+            ><img src="location2.png" class="locationClass" />123 Anywhare. Any
+            City</span
+          >
+
+          <span id="location2"
+            ><img src="location2.png" class="locationClass" />567. KSA.
+            Al-khobar</span
+          >
+        </div>
+
+        <!--Site-->
+        <div class="site">
+          <span id="site" onmouseover="MySite()" onmouseout="hisSite()"
+            ><img
+              src="site.png"
+              class="siteClass"
+            />www.reallygreatsite.com</span
+          >
+
+          <span id="site2"
+            ><img src="site.png" class="siteClass" />www.meznah.com</span
+          >
+        </div>
+        <h3 class="title-info">EDUCATION</h3>
+        <div
+          id="education"
+          onmouseout="hisEducation()"
+          onmouseover="MyEducation()"
+        >
+          <div id="education-details" class="education-details">
+            <div class="education1">
+              <p style="font-weight: bold">2029-2023</p>
+              <h5>WARDIERE UNIVERSITY</h5>
+              <ul class="ulClass">
+                <li class="liClass">Master of Business Management</li>
+              </ul>
+            </div>
+            <div class="education2">
+              <p style="font-weight: bold">2025-2029</p>
+              <h5>WARDIERE UNIVERSITY</h5>
+              <ul class="ulClass">
+                <li class="liClass">Bachelor of Business</li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="Myeducation" class="Myeducation">
+            <div class="education3">
+              <p style="font-weight: bold">2017-2022</p>
+              <h5>KING FAISAL UNIVERSITY</h5>
+              <ul class="ulClass">
+                <li class="liClass">Bachelor of CS</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <h3 class="title-info">SKILLS</h3>
+        <div
+          id="skills"
+          class="skills"
+          onmouseover="MySkills()"
+          onmouseout="hisSkills()"
+        >
+          <div id="hisSkill" class="hisSkill">
+            <ul>
+              <li>Project Management</li>
+              <li>Pulic Relations</li>
+              <li>Teamwork</li>
+              <li>Time Management</li>
+              <li>LeaderShip</li>
+              <li>Effective Communications</li>
+              <li>Critical Thinking</li>
+            </ul>
+          </div>
+          <div id="myskill" class="myskill">
+            <ul>
+              <li>Java</li>
+              <li>Python</li>
+              <li>JavaScript</li>
+              <li>Docker</li>
+              <li>Tailwind</li>
+            </ul>
+          </div>
+        </div>
+        <h3 class="title-info">LANGUAGES</h3>
+        <div
+          class="main-language"
+          onmouseover="myLanguages()"
+          onmouseout="hisLanguages()"
+        >
+          <div id="hisLanguage" class="hisLanguage">
+            <ul>
+              <li>English (fluent)</li>
+              <li>French (fluent)</li>
+              <li>German (Basics)</li>
+              <li>Spanish (Intermidiate)</li>
+            </ul>
+          </div>
+          <div id="myLanguage" class="myLanguage">
+            <ul>
+              <li>Arabic</li>
+              <li>English</li>
+            </ul>
+          </div>
+        </div>
+
+        <!--End of the info section-->
+      </div>
+
+      <div class="more-info">
+        <div id="name" class="name" onmouseover="myName()">
+          <h1><b style="color: rgb(100, 98, 98);">RICHARD</b> SANCHEZ</h1>
+          <h3>MARKETING MANAGER</h3>
+        </div>
+        <div id="myname" class="myname" onmouseout="hisName()">
+          <h1>Meznah Aldossari</h1>
+          <h3>Software Engnieer</h3>
+        </div>
+
+        <div class="profile">
+          <h3 class="profile-title">PROFILE</h3>
+          <div id="disc" onmouseover="myProfile()"  onmouseout=" hisProfile()">
+            <p class="description" id="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+              aperiam neque eligendi asperiores exercitationem delectus. Sed nemo
+              possimus delectus dolorem reprehenderit recusandae eum quis pariatur
+              harum? Tempora consequuntur dolore dolorum!
+            </p>
+            <!-- <p class="description" id="description1">
+              Computer Science graduate with experience in software development,
+              seeking a challenging role to apply and expand my skills,
+              contributing to the development of high-quality solutions for the
+              company.
+            </p> -->
+          </div>
+
+          <div class="description">
+            <p id="description1">
+              Computer Science graduate with experience in software development,
+              seeking a challenging role to apply and expand my skills,
+              contributing to the development of high-quality solutions for the
+              company.
+            </p>
+          </div>
+          
+        </div>
+
+        <div class="workexperiance">
+          <h3 class="profile-title">WORK EXPERIANCE</h3>
+          <div class="main-experiance" id="main-experiance"       onmouseover="myExperiance()">
+            <div class="date">
+              <p>Borcelle Studio</p>
+              <p>2023- PRESENT</p>
+            </div>
+            <div class="first">
+              <p>Marketing Manager & specialiest</p>
+              <ul>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit,
+                  illum cum cupiditate nobis! Suscipit, veniam placeat!
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit,
+                  illum cum cupiditate nobis! Suscipit, veniam placeat!
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit,
+                  illum cum cupiditate nobis! Suscipit, veniam placeat!
+                </li>
+              </ul>
+            </div>
+            <!--Second-->
+            <div class="date">
+              <p>Fauget Studio</p>
+              <p>2025- 2029</p>
+            </div>
+            <div class="first">
+              <p>Marketing Manager & specialiest</p>
+              <ul>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit,
+                  illum cum cupiditate nobis! Suscipit, veniam placeat!
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit,
+                  illum cum cupiditate nobis! Suscipit, veniam placeat!
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit,
+                  illum cum cupiditate nobis! Suscipit, veniam placeat!
+                </li>
+              </ul>
+            </div>
+            <!--third-->
+            <div class="date">
+              <p>Studio Shodwe</p>
+              <p>2024- 2025</p>
+            </div>
+            <div class="first">
+              <p>Marketing Manager & specialiest</p>
+              <ul>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit,
+                  illum cum cupiditate nobis! Suscipit, veniam placeat!
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit,
+                  illum cum cupiditate nobis! Suscipit, veniam placeat!
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit,
+                  illum cum cupiditate nobis! Suscipit, veniam placeat!
+                </li>
+              </ul>
+              <!--here-->
+            </div>
+          </div>
+
+          <div class="my-experiance" id="my-experiance" onmouseout=" hisExperiance()">
+            <div class="date">
+              <p>Tuwaiq Acacdemy</p>
+              <p>2024- 2024</p>
+            </div>
+            <div class="first">
+              <p>React Developer</p>
+              <ul>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit,
+                  illum cum cupiditate nobis! Suscipit, veniam placeat!
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit,
+                  illum cum cupiditate nobis! Suscipit, veniam placeat!
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit,
+                  illum cum cupiditate nobis! Suscipit, veniam placeat!
+                </li>
+              </ul>
+            </div>
+            <div class="date">
+              <p>Axis Inspection</p>
+              <p>2023- 2024</p>
+            </div>
+            <div class="first">
+              <p>Software Engineer</p>
+              <ul>
+                <li>
+                Developing the Solutions to meet the needs of the company.
+
+                </li>
+                <li>
+                  Gathering and Analysing the Requirements
+                </li>
+                <li>
+                  creating and Implementing the Source Code. and esolving the issues and Optimizing the User experience.
+
+                </li>
+              </ul>
+            </div>
+            <div class="date">
+              <p>Alahsa Municipality</p>
+              <p>2021- 2021</p>
+            </div>
+            <div class="first">
+              <p>Web Developer</p>
+              <ul>
+                <li>
+                  Developing the Solutions to meet the needs of the company.
+  
+                  </li>
+                  <li>
+                    Gathering and Analysing the Requirements
+                  </li>
+                  <li>
+                    creating and Implementing the Source Code. and esolving the issues and Optimizing the User experience.
+  
+                  </li>
+              </ul>
+           <!--Here-->
+          </div>
+        </div>
+      </div>
+      <h3 class="profile-title">REFRENCE</h3>
+      <div class="refrence">
+        <div class="firstRef" id="firstRef" onmouseover="myRef()" onmouseout=" hisRef()">
+          <div class="ref1">
+            <h5>Estelle Darcy</h5>
+            <p>Wardiere Inc. /CTO</p>
+            <p><b>Phone:</b>123-456-7890</p>
+            <p><b>Email:</b>hello@reallygreatsite.com</p>
+    
+    
+           </div>
+    
+           <div class="ref12" >
+            <h5>Harper Richard</h5>
+            <p>Wardiere Inc. /CTO</p>
+            <p><b>Phone:</b>123-456-7890</p>
+            <p><b>Email:</b>hello@reallygreatsite.com</p>
+           </div>
+    
+
+        </div>
+       
+
+       <div class="seccondRef" id="seccondRef">
+        <div class="ref2">
+          <h5>Mona Ahmed</h5>
+          <p>KFU. </p>
+          <p><b>Phone:</b>000-111-6781</p>
+          <p><b>Email:</b>mona@hotmail.com</p>
+  
+  
+         </div>
+  
+         <div class="ref21">
+          <h5>Ahmad</h5>
+          <p>Axis</p>
+          <p><b>Phone:</b>111-422-0000</p>
+          <p><b>Email:</b>ahmaed@axis-inspection.com</p>
+         </div>
+       </div>
+       <!--here-->
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main-div {
+  height: 210vh;
+  width: 60vw;
+  margin: auto;
+  display: flex;
+  background-color: rgb(245, 247, 250);
+}
+.personalInfo {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #163853;
+  align-items: center;
+  justify-content: space-around;
+  width: 18vw;
+  height: 210vh;
+}
+.imgCV {
+  width: 7rem;
+  height: 7rem;
+  margin-top: 10%;
+  border-radius: 100%;
+}
+.myInfo {
+  display: none;
+  width: 7rem;
+  height: 7rem;
+  margin-top: 10%;
+  border-radius: 100%;
+}
+.title-info {
+  color: white;
+  border-bottom: 1px solid white;
+  width: 70%;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.contactInfo {
+  width: 14vw;
+}
+.phoneClass {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 2px;
+  vertical-align: middle;
+}
+.contactInfo #phone {
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+}
+
+.contactInfo #phone2 {
+  display: none;
+  /* display: inline-block; */
+  vertical-align: middle;
+  color: white;
+}
+
+/* Email */
+.email {
+  width: 13vw;
+}
+.emailClass {
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-right: 2px;
+  vertical-align: middle;
+}
+.email #email {
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+  font-size: 0.8em;
+}
+
+.email #email2 {
+  display: none;
+  /* display: inline-block; */
+  vertical-align: middle;
+  color: white;
+  font-size: 0.8em;
+}
+/* Location */
+.location,
+.site {
+  width: 13vw;
+}
+.locationClass,
+.siteClass {
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-right: 2px;
+  vertical-align: middle;
+}
+.location #location,
+.site #site {
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+  font-size: 0.8em;
+}
+
+.location #location2,
+.site #site2 {
+  display: none;
+  /* display: inline-block; */
+  vertical-align: middle;
+  color: white;
+  font-size: 0.8em;
+}
+/* Education */
+.education-details {
+  display: flex;
+  flex-direction: column;
+  width: 14vw;
+  height: 25vh;
+  justify-content: space-between;
+  margin-left: 15px;
+  color: white;
+}
+
+.Myeducation {
+  display: none;
+  margin-left: 15px;
+  color: white;
+  line-height: 1.5em;
+}
+.liClass {
+  margin-left: 18px;
+}
+
+.hisSkill,
+.hisLanguage {
+  color: white;
+
+  display: flex;
+  width: 10vw;
+}
+.skill1 {
+  color: white;
+}
+.myskill,
+.myLanguage {
+  display: none;
+  color: white;
+  width: 10vw;
+}
+
+/* Name */
+
+.more-info {
+  display: flex;
+  flex-direction: column;
+  height: 210vh;
+  width: 45vw;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  margin-left: 30px;
+
+  margin-top: 30px;
+}
+.myname {
+  display: none;
+  width: 60%;
+  margin-left: 30px;
+
+  margin-top: 30px;
+}
+.profile-title {
+  color: #163853;
+  border-bottom: 1px solid #163853;
+  width: 90%;
+  font-weight: bold;
+  padding-bottom: 5px;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.description {
+  color: black;
+  text-align: justify;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 5px;
+}
+#description1 {
+  display: none;
+}
+
+.date {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 35px;
+  margin-top: 12px;
+}
+.first {
+  width: 80%;
+  margin-left: 50px;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+.my-experiance {
+  display: none;
+}
+.firstRef,
+.seccondRef {
+  /* display: flex;
+  justify-content: space-between;*/
+
+  width: 40vw;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.firstRef .ref1 {
+  float: left;
+}
+.firstRef .ref12 {
+  float: right;
+}
+.ref1,
+.ref2,
+.ref12 {
+  display: flex;
+  flex-direction: column;
+}
+.seccondRef {
+  display: none;
+}
+.seccondRef .ref2 {
+  float: left;
+}
+.seccondRef .ref21 {
+  float: right;
+}
